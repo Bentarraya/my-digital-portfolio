@@ -4,9 +4,9 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Cpu, Radio, Mic } from 'lucide-react';
 
 const projectIcons = [
-  <Cpu key="cpu" className="h-6 w-6 text-accent" />,
-  <Radio key="radio" className="h-6 w-6 text-accent" />,
-  <Mic key="mic" className="h-6 w-6 text-accent" />,
+  <Cpu key="cpu" className="h-8 w-8 text-accent" />,
+  <Radio key="radio" className="h-8 w-8 text-accent" />,
+  <Mic key="mic" className="h-8 w-8 text-accent" />,
 ];
 
 export function Projects() {
