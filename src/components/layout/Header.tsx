@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { CircuitBoard } from 'lucide-react';
+import { cn } from '@/lib/utils';
+import { buttonVariants } from '@/components/ui/button';
 
 export function Header() {
   const navItems = [
@@ -21,12 +23,15 @@ export function Header() {
               Bentar's Portfolio
             </span>
           </Link>
-          <nav className="hidden items-center gap-4 text-sm lg:flex">
+          <nav className="hidden items-center gap-1 text-sm lg:flex">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="transition-colors hover:text-foreground/80 text-foreground/60"
+                className={cn(
+                  buttonVariants({ variant: 'ghost', size: 'sm' }),
+                  'transition-colors'
+                )}
               >
                 {item.name}
               </Link>
