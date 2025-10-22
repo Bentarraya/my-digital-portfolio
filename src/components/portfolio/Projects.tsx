@@ -1,3 +1,4 @@
+import React from 'react';
 import { portfolioData } from '@/lib/portfolio-data';
 import { Section } from './Section';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -16,7 +17,9 @@ export function Projects() {
         {portfolioData.projects.map((project, index) => (
           <Card key={index} className="flex flex-col transition-transform duration-300 hover:-translate-y-2">
             <CardHeader className="flex-row gap-4 items-center">
-              {projectIcons[index % projectIcons.length]}
+              {React.cloneElement(projectIcons[index % projectIcons.length], {
+                className: 'h-8 w-8 text-accent',
+              })}
               <CardTitle className="font-headline text-lg">{project.title}</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow">
