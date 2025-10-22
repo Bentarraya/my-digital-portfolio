@@ -2,8 +2,8 @@
   "placeholderImages": [
     {
       "id": "profile-picture",
-      "description": "A portrait of Muhammad Bentar Raya Triadmodjo. Ganti URL ini dengan URL foto Anda.",
-      "imageUrl": "https://storage.googleapis.com/aifirebase-1222a.appspot.com/users%2Fw7g2r9JDNrR2T3tLq3P1jP6M3aA2%2Fimage-1721799793134-0.png",
+      "description": "Foto profil Muhammad Bentar Raya Triadmodjo. Ganti file 'public/profile-picture.png' dengan file foto Anda.",
+      "imageUrl": "/profile-picture.png",
       "imageHint": "profile portrait"
     }
   ]
