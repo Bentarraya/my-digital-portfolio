@@ -1,11 +1,27 @@
 import { portfolioData } from '@/lib/portfolio-data';
 import { Button } from '@/components/ui/button';
 import { MapPin, Briefcase, Calendar } from 'lucide-react';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function Hero() {
+  const profilePicture = PlaceHolderImages.find(p => p.id === 'profile-picture');
+
   return (
     <div className="relative w-full py-20 sm:py-32 lg:py-40 bg-background">
       <div className="container mx-auto px-4 text-center">
+        {profilePicture && (
+            <div className="mb-8 flex justify-center">
+                <Image
+                src={profilePicture.imageUrl}
+                alt={profilePicture.description}
+                data-ai-hint={profilePicture.imageHint}
+                width={160}
+                height={160}
+                className="rounded-full object-cover border-4 border-primary shadow-lg"
+                />
+            </div>
+        )}
         <h1 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-6xl lg:text-7xl">
           {portfolioData.name}
         </h1>
