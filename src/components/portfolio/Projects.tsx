@@ -5,9 +5,9 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Cpu, Radio, Mic } from 'lucide-react';
 
 const projectIcons = [
-  <Cpu key="cpu" className="h-8 w-8 text-accent" />,
-  <Radio key="radio" className="h-8 w-8 text-accent" />,
-  <Mic key="mic" className="h-8 w-8 text-accent" />,
+  <Cpu key="cpu" />,
+  <Radio key="radio" />,
+  <Mic key="mic" />,
 ];
 
 export function Projects() {
@@ -17,9 +17,11 @@ export function Projects() {
         {portfolioData.projects.map((project, index) => (
           <Card key={index} className="flex flex-col transition-transform duration-300 hover:-translate-y-2">
             <CardHeader className="flex-row gap-4 items-center">
-              {React.cloneElement(projectIcons[index % projectIcons.length], {
-                className: 'h-8 w-8 text-accent',
-              })}
+              <div className="flex-shrink-0">
+                {React.cloneElement(projectIcons[index % projectIcons.length], {
+                  className: 'h-8 w-8 text-accent',
+                })}
+              </div>
               <CardTitle className="font-headline text-lg">{project.title}</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow">
