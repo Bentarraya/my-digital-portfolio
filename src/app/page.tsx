@@ -13,6 +13,7 @@ import { Section } from '@/components/portfolio/Section';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
+      {/* The Header is now absolute, so it will overlap the Hero section */}
       <Header />
       <main className="flex-grow">
         <Hero />
