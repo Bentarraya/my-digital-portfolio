@@ -35,7 +35,7 @@ export function Header() {
         </div>
         <div className="flex flex-1 items-center justify-end space-x-2">
           <Button asChild>
-            <a href="mailto:muhammad.bentar@example.com">Hubungi Saya</a>
+            <Link href="/contact">Hubungi Saya</Link>
           </Button>
         </div>
       </div>
