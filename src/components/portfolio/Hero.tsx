@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <div className="relative w-full py-20 sm:py-32 lg:py-40 bg-background">
       <div className="container mx-auto px-4 text-center">
-        <h1 className="font-headline text-4xl font-bold tracking-tight text-primary-foreground sm:text-6xl lg:text-7xl">
+        <h1 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-6xl lg:text-7xl">
           {portfolioData.name}
         </h1>
         <p className="mt-6 text-lg max-w-3xl mx-auto leading-8 text-muted-foreground font-headline">
