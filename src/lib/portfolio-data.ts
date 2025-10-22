@@ -43,7 +43,7 @@ export const portfolioData = {
   },
   projects: [
     {
-      title: 'Proyek IoT berbasis ESP32',
+      title: 'Proyek IoT berbasis ESP32 dan Arduino Uno',
       description:
         'Mengembangkan sistem pemantauan suhu dan kelembapan menggunakan sensor DHT11 dan dua relay berbeda. Data ditampilkan melalui web server yang dibuat dengan ESPAsyncWebServer, lengkap dengan logika kontrol LED sebagai indikator koneksi WiFi.',
     },
