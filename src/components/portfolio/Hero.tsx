@@ -43,15 +43,15 @@ export function Hero() {
           </div>
            {profilePicture && (
             <div className="relative flex justify-center items-center">
-                <div className="absolute w-64 h-64 sm:w-80 sm:h-80 bg-primary/20 rounded-full blur-2xl"></div>
+                <div className="absolute w-72 h-72 sm:w-96 sm:h-96 bg-primary/20 rounded-full blur-2xl"></div>
                 <div className="relative">
                     <Image
                         src={profilePicture.imageUrl}
                         alt={profilePicture.description}
                         data-ai-hint={profilePicture.imageHint}
-                        width={250}
-                        height={250}
-                        className="rounded-full object-cover border-4 border-background shadow-lg"
+                        width={300}
+                        height={300}
+                        className="rounded-full object-cover shadow-lg"
                         priority
                         />
                 </div>
