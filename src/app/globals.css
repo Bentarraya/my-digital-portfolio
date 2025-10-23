@@ -30,7 +30,6 @@
     --border: 250 33% 35%;
     --input: 250 33% 35%;
     --ring: 334 67% 83%;
-    --radius: 0.5rem;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
@@ -68,6 +67,17 @@
     --ring: 334 67% 83%;
   }
 }
+
+@layer components {
+  .custom-gradient {
+    background-image: linear-gradient(to bottom, #1D0A57, #0CD61E);
+    border: 1px solid #4825AE;
+  }
+  .custom-gradient-text {
+    color: white;
+  }
+}
+
 
 @layer base {
   * {
