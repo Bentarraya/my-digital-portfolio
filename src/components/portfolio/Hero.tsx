@@ -19,8 +19,8 @@ export function Hero() {
                   src={profilePicture.imageUrl}
                   alt={profilePicture.description}
                   data-ai-hint={profilePicture.imageHint}
-                  width={180}
-                  height={180}
+                  width={200}
+                  height={200}
                   className="rounded-full object-cover shadow-lg"
                   priority
                 />
@@ -43,15 +43,15 @@ export function Hero() {
             </Button>
           </div>
           <div className="mt-10 flex flex-wrap justify-center gap-x-6 gap-y-4 text-sm text-muted-foreground">
-            <div className="flex items-center gap-2">
+            <div className="flex items-start gap-2">
               <MapPin className="h-4 w-4 text-accent" />
               <span>{portfolioData.personalInfo.address}</span>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-start gap-2">
               <Calendar className="h-4 w-4 text-accent" />
               <span>{portfolioData.personalInfo.birth}</span>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-start gap-2">
               <Briefcase className="h-4 w-4 text-accent" />
               <span>{portfolioData.personalInfo.expertise}</span>
             </div>
