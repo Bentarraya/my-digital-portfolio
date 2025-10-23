@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Analytics } from '@vercel/analytics/react';
+import { BackgroundImage } from '@/components/layout/BackgroundImage';
 
 export const metadata: Metadata = {
   title: "Bentar's Digital Portfolio",
@@ -29,7 +30,10 @@ export default function RootLayout({
         />
       </head>
       <body className="font-body antialiased">
-        {children}
+        <BackgroundImage />
+        <div className="relative z-10">
+          {children}
+        </div>
         <Toaster />
         <Analytics />
       </body>

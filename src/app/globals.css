@@ -85,11 +85,6 @@
     @apply border-border;
   }
   body {
-    @apply text-foreground;
-    background-image: url('/images/background.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: hsl(var(--background-end-hsl));
+    @apply text-foreground bg-transparent;
   }
 }
