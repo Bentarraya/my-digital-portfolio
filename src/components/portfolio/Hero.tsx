@@ -13,18 +13,15 @@ export function Hero() {
         <div className="flex flex-col items-center text-center">
           {profilePicture && (
             <div className="relative mb-8">
-              <div className="absolute inset-0 bg-primary/20 rounded-full blur-2xl transform scale-110"></div>
-              <div className="relative">
-                <Image
+               <Image
                   src={profilePicture.imageUrl}
                   alt={profilePicture.description}
                   data-ai-hint={profilePicture.imageHint}
-                  width={200}
-                  height={200}
+                  width={220}
+                  height={220}
                   className="rounded-full object-cover shadow-lg"
                   priority
                 />
-              </div>
             </div>
           )}
 
@@ -51,7 +48,7 @@ export function Hero() {
               <Calendar className="h-4 w-4 text-accent" />
               <span>{portfolioData.personalInfo.birth}</span>
             </div>
-            <div className="flex items-start gap-2">
+            <div className="flex items-center gap-2">
               <Briefcase className="h-4 w-4 text-accent" />
               <span>{portfolioData.personalInfo.expertise}</span>
             </div>
