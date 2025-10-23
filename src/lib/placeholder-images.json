@@ -3,7 +3,7 @@
     {
       "id": "profile-picture",
       "description": "Foto profil Muhammad Bentar Raya Triadmodjo. File gambar diambil dari 'public/profile-picture.png'. Ini adalah satu-satunya sumber untuk gambar profil.",
-      "imageUrl": "/profile-picture.png",
+      "imageUrl": "picture/profile-picture.png",
       "imageHint": "profile portrait"
     }
   ]
