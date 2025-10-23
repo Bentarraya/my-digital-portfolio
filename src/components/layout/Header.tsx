@@ -30,7 +30,7 @@ export function Header() {
                 href={item.href}
                 className={cn(
                   buttonVariants({ variant: 'ghost', size: 'sm' }),
-                  'transition-colors hover:bg-accent/50 hover:text-accent-foreground'
+                  'transition-colors hover:bg-transparent hover:text-accent-foreground'
                 )}
               >
                 {item.name}
