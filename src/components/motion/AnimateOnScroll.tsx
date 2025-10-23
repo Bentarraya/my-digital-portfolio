@@ -12,14 +12,12 @@ interface AnimateOnScrollProps {
 
 export function AnimateOnScroll({ children, className, delay = 0 }: AnimateOnScrollProps) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { amount: 0.2 });
+  const isInView = useInView(ref, { amount: 0.2, once: true });
   const controls = useAnimation();
 
   useEffect(() => {
     if (isInView) {
       controls.start('visible');
-    } else {
-      controls.start('hidden');
     }
   }, [isInView, controls]);
 
