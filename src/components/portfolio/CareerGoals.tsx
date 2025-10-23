@@ -7,7 +7,7 @@ export function CareerGoals() {
     <Section id="career" title="Tujuan Karier">
       <div className="text-center max-w-3xl mx-auto">
         <Target className="h-12 w-12 mx-auto text-accent mb-4" />
-        <p className="text-lg leading-relaxed text-muted-foreground">
+        <p className="text-lg leading-relaxed text-foreground">
           {portfolioData.careerGoals}
         </p>
       </div>
