@@ -28,7 +28,7 @@ export function Hero() {
           <h1 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-6xl lg:text-7xl">
             {portfolioData.name}
           </h1>
-          <p className="mt-4 text-lg max-w-2xl mx-auto leading-8 text-muted-foreground font-headline">
+          <p className="mt-4 text-lg max-w-2xl mx-auto leading-8 text-foreground font-headline">
             {portfolioData.title}
           </p>
           <div className="mt-8 flex items-center justify-center gap-x-4">
