@@ -122,8 +122,8 @@ export default function ContactPage() {
                         Anda juga dapat mengirim email langsung ke alamat di bawah ini.
                     </p>
                     <Button asChild variant="outline">
-                         <a href="mailto:muhammad.bentar@example.com">
-                            muhammad.bentar@example.com
+                         <a href="mailto:bentarraya01@gmail.com">
+                            bentarraya01@gmail.com
                         </a>
                     </Button>
                 </CardContent>
@@ -139,7 +139,7 @@ export default function ContactPage() {
                         Kirim pesan cepat melalui WhatsApp.
                     </p>
                     <Button asChild variant="outline">
-                         <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">
+                         <a href="https://wa.me/+62895620496881" target="_blank" rel="noopener noreferrer">
                             Chat di WhatsApp
                         </a>
                     </Button>
@@ -156,7 +156,7 @@ export default function ContactPage() {
                         Hubungi saya melalui Direct Message di Instagram.
                     </p>
                     <Button asChild variant="outline">
-                         <a href="https://www.instagram.com/bentar.raya" target="_blank" rel="noopener noreferrer">
+                         <a href="https://www.instagram.com/boyvees" target="_blank" rel="noopener noreferrer">
                             DM di Instagram
                         </a>
                     </Button>
