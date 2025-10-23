@@ -19,8 +19,8 @@ export function Hero() {
                   src={profilePicture.imageUrl}
                   alt={profilePicture.description}
                   data-ai-hint={profilePicture.imageHint}
-                  width={150}
-                  height={150}
+                  width={180}
+                  height={180}
                   className="rounded-full object-cover shadow-lg"
                   priority
                 />
