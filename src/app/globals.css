@@ -43,6 +43,7 @@
     --sidebar-accent-foreground: 334 50% 20%;
     --sidebar-border: 250 33% 35%;
     --sidebar-ring: 334 67% 83%;
+    --radius: 0.75rem;
   }
 
   .dark {
