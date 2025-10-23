@@ -45,7 +45,7 @@ export function CareerSuggestion() {
   };
 
   return (
-    <Card className="border-dashed border-primary/50 text-center bg-background/30 backdrop-blur-sm">
+    <Card className="border-dashed border-primary/50 text-center bg-background/10 backdrop-blur-sm">
       <CardHeader>
         <CardTitle className="flex items-center justify-center gap-2 font-headline">
           <Wand2 className="text-accent" />
