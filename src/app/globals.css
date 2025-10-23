@@ -70,8 +70,8 @@
 
 @layer components {
   .custom-gradient {
-    background-image: linear-gradient(to bottom, #1D0A57, #0C061E);
-    border: 1px solid #4825AE;
+    background-image: linear-gradient(to bottom, #1C183A, #0C0A25);
+    border: 1px solid #363059;
   }
   .custom-gradient-text {
     color: white;
