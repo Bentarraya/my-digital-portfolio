@@ -44,7 +44,7 @@ export function CareerSuggestion() {
   };
 
   return (
-    <Card className="bg-card/50 border-dashed border-primary/50 text-center">
+    <Card className="border-dashed border-primary/50 text-center bg-card/50 backdrop-blur-sm">
       <CardHeader>
         <CardTitle className="flex items-center justify-center gap-2 font-headline">
           <Wand2 className="text-accent" />
@@ -70,7 +70,7 @@ export function CareerSuggestion() {
         {error && <p className="mt-4 text-sm text-destructive">{error}</p>}
 
         {suggestions.length > 0 && !isLoading && (
-          <div className="mt-6 text-left space-y-4 rounded-lg border bg-background p-4">
+          <div className="mt-6 text-left space-y-4 rounded-lg border bg-background/80 p-4">
             <h3 className="font-semibold flex items-center gap-2">
               <Sparkles className="h-5 w-5 text-accent" />
               Rekomendasi untuk Anda:
