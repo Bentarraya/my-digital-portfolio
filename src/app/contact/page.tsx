@@ -65,8 +65,8 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Send className="text-accent" />
+                <CardTitle className="flex items-start gap-2">
+                  <Send className="text-accent shrink-0" />
                   Kirim Pesan Langsung
                 </CardTitle>
                 <CardDescription>
@@ -108,8 +108,8 @@ export default function ContactPage() {
             <div className="space-y-6">
                <Card className="bg-card/50">
                 <CardHeader>
-                    <CardTitle className="flex items-center gap-3">
-                        <Mail className="text-accent"/> Email
+                    <CardTitle className="flex items-start gap-3">
+                        <Mail className="text-accent shrink-0"/> Email
                     </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -125,7 +125,7 @@ export default function ContactPage() {
                </Card>
               <Card className="bg-card/50">
                 <CardHeader>
-                    <CardTitle className="flex items-center gap-3">
+                    <CardTitle className="flex items-start gap-3">
                         <WhatsAppIcon /> WhatsApp
                     </CardTitle>
                 </CardHeader>
@@ -142,8 +142,8 @@ export default function ContactPage() {
                </Card>
               <Card className="bg-card/50">
                 <CardHeader>
-                    <CardTitle className="flex items-center gap-3">
-                        <Instagram className="text-accent"/> Instagram
+                    <CardTitle className="flex items-start gap-3">
+                        <Instagram className="text-accent shrink-0"/> Instagram
                     </CardTitle>
                 </CardHeader>
                 <CardContent>

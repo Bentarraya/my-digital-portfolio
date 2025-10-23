@@ -8,8 +8,8 @@ export function Education() {
     <Section id="education" title="Pendidikan & Prestasi">
       <div className="grid gap-8 md:grid-cols-5">
         <Card className="md:col-span-2 bg-card/50">
-          <CardHeader className="flex flex-row items-center gap-4">
-            <School className="h-8 w-8 text-accent" />
+          <CardHeader className="flex flex-row items-start gap-4">
+            <School className="h-8 w-8 text-accent shrink-0" />
             <div>
               <CardTitle className="font-headline">{portfolioData.education.school}</CardTitle>
               <p className="text-sm text-muted-foreground">{portfolioData.education.major}</p>

@@ -11,8 +11,8 @@ export function Skills() {
       <div className="grid gap-8 md:grid-cols-2">
         <Card>
           <CardHeader>
-            <CardTitle className="flex items-center gap-2 font-headline">
-              <Wrench className="h-6 w-6 text-accent" />
+            <CardTitle className="flex items-start gap-2 font-headline">
+              <Wrench className="h-6 w-6 text-accent shrink-0" />
               Kemampuan Teknis
             </CardTitle>
           </CardHeader>
@@ -26,8 +26,8 @@ export function Skills() {
         </Card>
         <Card>
           <CardHeader>
-            <CardTitle className="flex items-center gap-2 font-headline">
-              <Users className="h-6 w-6 text-accent" />
+            <CardTitle className="flex items-start gap-2 font-headline">
+              <Users className="h-6 w-6 text-accent shrink-0" />
               Keterampilan Non-Teknis
             </CardTitle>
           </CardHeader>

@@ -16,7 +16,7 @@ export function Projects() {
       <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-3">
         {portfolioData.projects.map((project, index) => (
           <Card key={index} className="flex flex-col transition-transform duration-300 hover:-translate-y-2">
-            <CardHeader className="flex-row gap-4 items-center">
+            <CardHeader className="flex-row gap-4 items-start">
               <div className="flex-shrink-0">
                 {React.cloneElement(projectIcons[index % projectIcons.length], {
                   className: 'h-8 w-8 text-accent',
